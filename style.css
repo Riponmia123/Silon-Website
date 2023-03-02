@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+/* header class start */
+header{
+    background-color: rgb(173, 173, 173);
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header-top{
+    display: flex;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: normal;
+}
+.header-top-contact{
+    flex-basis: 50%;
+}
+.header-top-contact a{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+
+.header-top-menu{
+    text-transform: uppercase;
+    display: flex;
+    flex-basis: 50%;
+    justify-content: end;
+}
+.header-top-menu ul{
+    list-style: none;
+    margin-top: 0;
+}
+.header-top-menu ul li{
+    display: inline;
+    padding: 0 10px;
+
+}
+.header-top-menu ul li:last-child{
+    margin: 0;
+}
+/* header class end */
+/* menu class start */
+.main-menu2{
+    display: flex;
+}
+.logo{
+    flex-basis: 10%;
+    padding: 25px 0;
+}
+.menu{
+    flex-basis: 70%;
+    list-style-type: none;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+.menu ul{
+    margin: 0;
+    margin-top: 25px;
+}
+.menu ul li{
+    display: inline;
+    padding: 0 10px;
+}
+.menu ul li a:hover{
+    color: red;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    
+}
+.sub-menu ul{
+    background-color: #fff;
+    margin-left: 50px;
+    width: 300px;
+    text-align: left;
+    /* margin: 5px; */
+    padding: 0;
+}
+.sub-menu ul li{
+    display: block;
+    margin: 20px;
+}
+.sub-menu{
+    display: none;
+}
+.font-awesome{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: end;
+    padding: 25px 0;
+    position: relative;
+}
+.font-awesome span{
+    padding: 0 10px;
+}
+.font-awesome span:hover{
+    color: red;
+}
+.notification{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 12px;
+}
+.notification p{
+    font-size: 10px;
+}
+/* menu class end */
+/* main-container class start */
+.main-container{
+    background-color: rgb(255, 149, 193);
+}
+.hero-section{
+    display: flex;
+}
+.text1{
+    flex-basis: 50%;
+    text-align: center;
+    margin-top: 100px;
+}
+.text1 h4{
+    margin-bottom: 10px;
+    color: rgb(158, 145, 145);
+    letter-spacing: 2px;
+}
+.text1 h1{
+    margin-top: 0;
+    font-size: 58px;
+}
+.text1 span{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(255,83,83);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 7px;
+    transition: all 0.5s ease;
+}
+.text1 span:hover{
+    background-color: wheat;
+    color: rgb(91, 91, 233);
+}
+.box1{
+    flex-basis: 50%;
+}
+.box1 img{
+    width: 520px;
+    height: 460px;
+    margin-bottom: -5px;
+}
+/* main-container class end */
+/* FEATURED PRODUCT class start */
+.container h1{
+    text-align: center;
+}
+.images1{
+    display: flex;
+}
+.box2 img{
+    padding: 10px;
+    width: 340px;
+}
+.box2:hover .icon{
+    visibility: visible;
+}
+.icon{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: -120px;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+.icon span:hover{
+    color: white;
+    background-color: rgb(156, 11, 11);
+}
+.icon span{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.box2{
+    text-align: center;
+}
+.box2 p{
+    color: rgb(158, 145, 145);
+}
+.box2 samp{
+    color: rgb(201, 82, 73);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.box2 h1{
+    margin-top: 0;
+}
+/* FEATURED PRODUCT class end */
+.main-container2{
+    background-color: rgb(201, 175, 175);
+}
+.text2{
+    flex-basis: 50%;
+    text-align: center;
+    margin-top: 90px;
+}
+.text2 h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 58px;
+}
+.text2 h4{
+    font-weight: normal;
+    margin-bottom: 60px;
+    font-size: 24px;
+    margin-top: 0;
+}
+.box3{
+    flex-basis: 50%;
+}
+.box3 img{
+    height: 400px;
+}
+.text2 span{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(255,83,83);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 7px;
+    transition: all 0.5s ease;
+}
+.text2 span:hover{
+    color: rgb(117, 117, 211);
+    background-color: rgb(255, 255, 255);
+}
+/* most popular class start */
+
+.images2{
+    display: flex;
+}
+.box4 img{
+    padding: 10px;
+    width: 250px;
+}
+.box4{
+    text-align: center;
+}
+.box4:hover .icon2{
+    visibility: visible;
+}
+.icon2{
+    margin-left: 60px;
+    position: absolute;
+    margin-top: -100px;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+.icon2 span:hover{
+    color: white;
+    background-color: rgb(156, 11, 11);
+}
+.icon2 span{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.box4 p{
+    color: rgb(158, 145, 145);
+}
+.box4 samp{
+    color: rgb(201, 72, 72);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* most popular class end */
+/* border class start */
+.images4{
+    display: flex;
+}
+.box5{
+    border: 1px solid rgb(126, 122, 122);
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+}
+.box5 img{
+    padding: 20px;
+  
+}
+.box5 p{
+    color: rgb(158, 145, 145);
+}
+/* border class end */
+/*  SILON JOURNAL class start */
+.images5{
+    display: flex;
+}
+.box7 img{
+    padding: 10px;
+    width: 340px;
+}
+.box7 p{
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left: 35px;
+    color: rgb(158, 145, 145);
+}
+.box7 p:hover{
+    color: red;
+}
+.box7 h3{
+    font-size: 20px;
+}
+.box7 h3:hover{
+    color: red;
+}
+.box{
+    width: 15px;
+    height: 8px;
+    background-color: red;
+    border-radius: 0 5px 5px 0;
+    margin-left: 10px;
+}
+.box7 hr{
+    width: 340px;
+    color: rgb(158, 145, 145);
+}
+.box7 samp{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(158, 145, 145);
+}
+.box7 span{
+    margin-left: 30px;
+    font-size: 12px;
+    color: rgb(158, 145, 145);
+}
+.box7 span:hover{
+    color: rgb(212, 57, 57);
+}
+.box7 span i{
+    padding: 5px;
+    font-size: 16px;
+}
+.box7 samp i{
+    padding: 5px;
+    font-size: 16px;
+}
+.box7 samp:hover{
+    color: rgb(201, 65, 65);
+}
+/*  SILON JOURNAL class ens */
+/* follow us class start */
+.follow-us{
+    margin-top: 50px;
+}
+
+.images6{
+    display: flex;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.box8 img{
+    padding: 10px;
+    width: 250px;
+}
+.box8:hover .effect{
+    visibility: visible;
+    margin-top: -250px;
+}
+.effect{
+    width: 250px;
+    height: 235px;
+    background-color: red;
+    content: '';
+    clear: both;
+    display: block;
+    margin-left: 10px;
+    opacity: .5;
+    margin-top: -200px;
+    visibility: hidden;
+    transition: all 0.5s ease;
+    /* overflow: hidden; */
+}
+.effect i{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    margin-top: 110px;
+    margin-left: 120px;
+    opacity: 1;
+}
+/* follow us class end */
+/* last menu class start */
+.last-menu{
+    background-color: rgb(180, 178, 178);
+}
+.last-box{
+    display: flex;
+    gap: 140px;
+}
+.last-menu p{
+    color: rgb(51, 47, 47);
+    font-size: 14px;
+}
+.last-menu p:hover{
+    color: rgb(185, 33, 33);
+}
+.box10{
+    width: 140px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.box10:hover{
+    background-color: rgb(228, 36, 36);
+    color: #fff;
+}
+.box10 i{
+    font-size: 18px;
+    color: rgb(228, 36, 36);
+}
+.box10 p{
+    margin-bottom: 0;
+    margin-left: 30px;
+    margin-top: -18px;
+    font-size: 9px;
+}
+.box10 h4{
+    margin-top: 0;
+    margin-left: 30px;
+    font-size: 13px;
+}
+.box11{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(228, 36, 36);
+    margin-left: 160px;
+    margin-top: -40px;
+    border-radius: 5px;
+    color: #fff;
+}
+.box11 i{
+    font-size: 25px;
+}
+.box11 p{
+    margin-bottom: 0;
+    margin-left: 30px;
+    margin-top: -18px;
+    font-size: 9px;
+    color: #fff;
+}
+.box11 h4{
+    margin-top: 0;
+    margin-left: 30px;
+    font-size: 13px;
+}
+.last-text span{
+    font-size: 30px;
+    margin: 8px;
+}
+.last-text span a{
+    color: black;
+}
+/* last menu class end */
